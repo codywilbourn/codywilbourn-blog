@@ -1,0 +1,4 @@
+baseURL = "http://codywilbourn.com"
+languageCode = "en-us"
+title = "Cody Wilbourn's Blog"
+theme = "ananke"
