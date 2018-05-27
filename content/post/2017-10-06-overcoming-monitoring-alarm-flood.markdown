@@ -66,20 +66,10 @@ How might this manifest in your environment?
 
 	
   * Connection errors in the application
-
-	
   * Connection resets at the TCP level
-
-	
   * Parsing errors when the data comes back corrupted in or incomplete
-
-	
   * Full disks, caused by errors or retries being logged to file
-
-	
   * System automated failover and failback attempts
-
-	
   * Autoscaling to handle incoming traffic load
 
 

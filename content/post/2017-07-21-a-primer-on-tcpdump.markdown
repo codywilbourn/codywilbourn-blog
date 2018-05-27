@@ -29,41 +29,20 @@ The full syntax can be found in the pcap-filter(7) manpage.
 
 ### Useful filters
 
-
-
-
-
-	
   * `host foo` - traffic to and from host foo
-
-	
-  * ​​​`net[mask]` - Any traffic to or from network, with optionally provided netmask. Use IP notation for this, providing as many octets of the IP address as you need (less specific will get you more traffic). For example, 192.168.1.12 will get that one host, 192.168.1 will get anything from 192.168.1.0-255. You could also use something like “10” to get anything on 10.0.0.0/8.
-
-	
+  * `net[mask]` - Any traffic to or from network, with optionally provided netmask. Use IP notation for this, providing as many octets of the IP address as you need (less specific will get you more traffic). For example, 192.168.1.12 will get that one host, 192.168.1 will get anything from 192.168.1.0-255. You could also use something like “10” to get anything on 10.0.0.0/8.
   * `port` - Only traffic to/from this port
-
-	
   * `portrange` - Only traffic to/from this range of ports (so you don’t have to type port 3240 or port 3241 or port 3242…)
-
-	
   * `tcp` and `udp`  to filter for only packets of that specific protocol. More protocols are available but you probably won’t use them.
 
 
 For the statements above, `dst` and `src` can be used as extra filters for packets to destination X or from source Y. They can also be used by themselves to capture all traffic
 e.g.
 
-
-
 	
   * `dst host foo` - Only packets with a destination of "foo"
-
-	
   * `src net 10.1` - Only packets from network 10.1.0.0/16
-
-	
   * `src 192.168.1.1` - Any traffic from 192.168.1.1
-
-
 
 
 ### Combining statements
@@ -119,21 +98,10 @@ The `-w` option writes raw packets out to a file instead of interpreting them. T
 
 A few scenarios I’ve used tcpdump for
 
-
-
-	
   * Benchmarking application network usage between a client and server
-
-	
   * Finding out whether an application was hitting a license server
-
-	
   * Security auditing (this software isn't trying to contact something outside our network?)
-
-	
   * Determining which files are opened via NFS, and what operations are performed against each file (read, write, stat, etc)
-
-	
   * Finding the client making the most fileserver requests
 
 

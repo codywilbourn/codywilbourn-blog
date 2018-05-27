@@ -54,7 +54,8 @@ But if your “root cause” amounts to a _single_ failure, you have stopped you
 
 Like the word **data** is plural, the phrase “root cause” should be as well. There is never a singular _root cause_, but instead _root causes_ that contribute to an incident. Furthering the plant metaphor, a root came from a seed, and in order to sprout, that seed needed sufficient nutrients, water, and sunlight. Failing to recognize those nutrients, water sources, and sunlight means you prematurely stopped your learning process. There are other roots growing in your field, maybe similar to the one remediated, maybe different, but feeding off of those same needs.
 
-[caption id="attachment_1509" align="alignnone" width="740"]![root-causes-roots](https://codywilbourn.files.wordpress.com/2018/01/root-causes-roots.png) A network of plant plant roots. CC-SA3.0 retrieved from https://commons.wikimedia.org/wiki/File:Cycads_root.png[/caption]
+
+{{< figure src="/img/root-causes-roots.png" caption="A network of plant plant roots. CC-SA3.0 retrieved from https://commons.wikimedia.org/wiki/File:Cycads_root.png" >}}
 
 This isn’t just one root, there’s an entire system of roots.
 
@@ -99,7 +100,7 @@ This example corresponds to the [Space Shuttle Challenger explosion](https://en.
 
 Why did the Challenger explode? A single O-ring failed, causing a chain of events that ultimately led to the explosion.
 
-[caption id="attachment_1510" align="alignnone" width="800"]![root-causes-challenger](https://codywilbourn.files.wordpress.com/2018/01/root-causes-challenger.jpg) Gas leak on Space Shuttle Challenger. Public Domain, retrieved from https://en.wikipedia.org/wiki/Space_Shuttle_Challenger_disaster#/media/File:STS-51-L_grey_smoke_on_SRB.jpg[/caption]
+{{< figure src="/img/root-causes-challenger.jpg" caption="Gas leak on Space Shuttle Challenger. Public Domain, retrieved from https://en.wikipedia.org/wiki/Space_Shuttle_Challenger_disaster#/media/File:STS-51-L_grey_smoke_on_SRB.jpg" >}}
 
 Did people throw up their hands and say “this stuff happens when you shoot rockets into space?” No, they didn’t. They, through the Rogers Commission, dug deeper.
 
@@ -135,7 +136,7 @@ That’s how you should react to an acceptable risk problem. “Today is the day
 
 Complex investigations require investigating multiple avenues. Mapping the effects and causes in a tree visualization helps understanding of the problems cascade into each other, and may overlap. Visualizations can help promote collaboration -- mapping the causes and effects on a whiteboard or with Post-It notes is an easy activity for the post-mortem team to engage in. It’s easy to draw another line and add in more contributing factors as they’re identified. Mapping also ensures that all of the root causes are fully explored and nothing was missed accidentally.
 
-[caption id="attachment_1511" align="alignnone" width="804"]![cause-effect-tree](https://codywilbourn.files.wordpress.com/2018/01/cause-effect-tree.png) A tree of causes and effects[/caption]
+{{< figure src="/img/cause-effect-tree.png" caption="A tree of causes and effects" >}}
 
 The action items or other tasks required following up an incident will be to eliminate as many branches as possible, preferably the leaf nodes or one level up. Eliminating the root of the tree is the same as your current process -- it doesn’t ensure that these other contributing root causes won’t impact operations somewhere else in the future. Addressing as much of the problem surface as possible will maximize learnings and improvements, while minimizing the recurrence of issues.
 

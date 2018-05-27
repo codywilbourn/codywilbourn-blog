@@ -24,14 +24,10 @@ With the increase in Cloud services, there came an increase in hosted monitoring
 
 **Pros**:
 
-
-
 	
   * All data stays in-house, which may be a hard requirement for your company
-
 	
   * Customizable data retention
-
 	
   * Custom integration into your existing reporting, business intelligence (BI), or other internal tools
 

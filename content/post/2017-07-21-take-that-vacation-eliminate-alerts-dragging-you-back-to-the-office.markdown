@@ -28,15 +28,8 @@ It's possible to engineer yourself and environment for success.<!--more-->
 
 Rome wasn't build in a day, and neither was your current alert setup. It won't take a day to clean up either. But you can apply two simple verification rules to each of your alerts:
 
-
-
-	
   1. Is the alert actionable?
-
-	
   2.  Do you have to deal with the alert right now?
-
-
 
 
 ## Take inventory of your monitoring system
@@ -66,23 +59,10 @@ You should have written instructions that look something like this:
 
 	
   1. Connect to the server identified by alert
-
-	
   2. Run X command to verify the problem and determine the cause
-
-	
     1. If \<A\>, do this
-
-	
     2. If \<B\>, do this
-
-	
     3. Else, do this
-
-
-
-
-	
   3. Check the monitoring dashboard to make sure it's resolved
 
 
@@ -140,7 +120,7 @@ These are all actions that can be taken programmatically, and possibly worked in
 
 Generally automation works out in your favor, if you assume most off-hours alerts are going to take you at least 30 minutes to start up your computer, log in, verify the issue, and then resolve it.
 
-[caption id="attachment_78" align="aligncenter" width="571"]![is_it_worth_the_time](https://codywilbourn.files.wordpress.com/2017/07/is_it_worth_the_time.png) XKCD 1205: How long you can work on making a task more efficient before there's no ROI[/caption]
+{{< figure src="/img/is_it_worth_the_time.png" caption="XKCD 1205: How long you can work on making a task more efficient before there's no ROI" >}}
 
 Be careful with your automation, however. There are many pitfalls that lie down this path, particularly with destructive resolutions like restarts and deletions. Heed this sage advice:
 
@@ -160,14 +140,8 @@ Consider just some of the following questions as you design your solution:
 
 	
   * What happens if the state keeps changing between bad and good, a condition known as flapping?
-
-	
   * When _don't_ you want this fix to automatically take place?
-
-	
   * What happens if the fix fails mid-step?
-
-	
   * Will the automatic resolution conflict with any intentional work, like downtimes, upgrades, or patching?
 
 

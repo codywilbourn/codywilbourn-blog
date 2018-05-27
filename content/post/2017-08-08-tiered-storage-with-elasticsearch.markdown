@@ -84,15 +84,9 @@ A client node exclusively for data exploration is helpful in avoiding cascading 
 
 So at the end of all of this you have
 
-
-
 	
   * 3 master nodes, ensuring you always have a quorum if you lose one
-
-	
   * Some number of homogenous nodes in each tier, allowing for your configured data replication within the tier. The number of replicas may change as you migrate between tiers.
-
-	
   * Some number of client nodes
 
 
@@ -106,7 +100,7 @@ What this does is set a new node attribute, which you could have defined yoursel
 
 Here's a diagram of what this whole setup could look like, assuming you need want to use 3 AWS Availability Zones - A, B, and C and survive one, maybe two Availability Zone outages.
 
-![es-architecture](https://codywilbourn.files.wordpress.com/2017/08/es-architecture.png)
+![es-architecture](/img/es-architecture.png)
 
 Why is this arranged like this?
 
