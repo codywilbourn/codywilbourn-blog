@@ -17,7 +17,7 @@ wordpress_id: 1505
 
 The video of my LISA17 talk is posted on [YouTube](https://www.youtube.com/watch?v=hXgwHFzSqaA).
 
-[youtube https://www.youtube.com/watch?v=hXgwHFzSqaA&w=560&h=315]
+{{< youtube hXgwHFzSqaA >}}
 
 **Abstract:**
 
@@ -29,11 +29,9 @@ Noisy monitoring system defaults and un-tuned alerts barrage us with information
 
 **Talk slides:**
 
-
-
 	
-  * [Hidden Costs - Slides only](/static/pdf/hidden_costs_slides.pdf)
-  * [Hidden Costs - Handout with Notes](/static/pdf/hidden_costs_handout1.pdf)
+  * [Hidden Costs - Slides only](/pdf/hidden_costs_slides.pdf)
+  * [Hidden Costs - Handout with Notes](/pdf/hidden_costs_handout1.pdf)
 
 
 **If you would like to read more** about monitoring and on-call, you may enjoy these posts:

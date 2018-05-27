@@ -16,15 +16,15 @@ wordpress_id: 1525
 I saw a tweet by Charity Majors that got me thinking--
 
 
-<blockquote>
+<blockquote class="twitter-tweet">
+Yes, yes. On call sucks and can destroy your life. I know this. Bored now.
 
-> 
-> Yes, yes. On call sucks and can destroy your life. I know this. Bored now.
-> 
-> 
 On call is a fact of life for anyone who cares about developing high quality software for the long run. So how can we make it *not* suck?
 
 — Charity Majors (@mipsytipsy) [January 31, 2018](https://twitter.com/mipsytipsy/status/958712239648919552?ref_src=twsrc%5Etfw)</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 
 
 On-call is stressful, overwhelmingly the negative type of stress, distress, rather than positive, eustress. I've written about the [stresses of on-call](http://codywilbourn.com/2017/09/17/stresses-of-on-call/) before--urgency, uncertainty, duration, and expectations.  We all know that distress can contribute to burnout, but individually those four factors are fairly benign. Expectations are part of any job. People on oil rigs work 12+ hours a day for two weeks straight. A number of jobs have uncertain and urgent of tasks, such as first responders or doctors. If these components can be managed, why then can on-call be so miserable?
