@@ -1,16 +1,14 @@
 ---
-author: cwilbourn3
+author: "Cody Wilbourn"
 categories:
 - Alerting
 - Analysis
 comments: true
 date: "2018-01-02T20:27:43Z"
-link: http://codywilbourn.com/2018/01/02/root-cause-is-plural/
 slug: root-cause-is-plural
 tags:
 - sysadvent
 title: Root Cause is Plural
-wordpress_id: 1508
 ---
 
 Below is a copy of my post from [Sysadvent 2017 (Day 3)](http://sysadvent.blogspot.com/2017/12/day-3-root-cause-is-plural.html). I'd like to thank Kerim Satirli ([@ksatirli](http://twitter.com/ksatirli)) once again for his help in editing the post and improving it.

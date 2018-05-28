@@ -1,15 +1,13 @@
 ---
-author: cwilbourn3
+author: "Cody Wilbourn"
 categories:
 - Alerting
 comments: true
 date: "2017-10-06T19:20:26Z"
-link: http://codywilbourn.com/2017/10/06/overcoming-monitoring-alarm-flood/
 slug: overcoming-monitoring-alarm-flood
 tags:
 - monitoring
 title: Overcoming Monitoring Alarm Flood
-wordpress_id: 788
 ---
 
 You've most likely had 10, 20, 50, or even more alerts hit your inbox or pager in a short span of time or all at once. What do you call this situation?

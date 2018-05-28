@@ -1,16 +1,14 @@
 ---
-author: cwilbourn3
+author: "Cody Wilbourn"
 categories:
 - Alerting
 comments: true
 date: "2017-09-17T16:10:34Z"
-link: http://codywilbourn.com/2017/09/17/stresses-of-on-call/
 slug: stresses-of-on-call
 tags:
 - pager
 - stress
 title: Reducing the Stresses of On-Call
-wordpress_id: 603
 ---
 
 Being on-call is stressful. It feels like the future of the company--or at the very least your job--depends on your vigilance. When will the pager alert come? How bad will it be?

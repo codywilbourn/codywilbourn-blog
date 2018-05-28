@@ -1,16 +1,14 @@
 ---
-author: cwilbourn3
+author: "Cody Wilbourn"
 categories:
 - Alerting
 comments: true
 date: "2018-03-22T16:27:37Z"
-link: http://codywilbourn.com/2018/03/22/sustainable-on-call/
 slug: sustainable-on-call
 tags:
 - monitoring
 - pager
 title: Sustainable On-Call
-wordpress_id: 1525
 ---
 
 I saw a tweet by Charity Majors that got me thinking--
@@ -27,9 +25,9 @@ On call is a fact of life for anyone who cares about developing high quality sof
 
 
 
-On-call is stressful, overwhelmingly the negative type of stress, distress, rather than positive, eustress. I've written about the [stresses of on-call](http://codywilbourn.com/2017/09/17/stresses-of-on-call/) before--urgency, uncertainty, duration, and expectations.  We all know that distress can contribute to burnout, but individually those four factors are fairly benign. Expectations are part of any job. People on oil rigs work 12+ hours a day for two weeks straight. A number of jobs have uncertain and urgent of tasks, such as first responders or doctors. If these components can be managed, why then can on-call be so miserable?
+On-call is stressful, overwhelmingly the negative type of stress, distress, rather than positive, eustress. I've written about the [stresses of on-call]({{< relref "2017-09-17-stresses-of-on-call" >}}) before--urgency, uncertainty, duration, and expectations.  We all know that distress can contribute to burnout, but individually those four factors are fairly benign. Expectations are part of any job. People on oil rigs work 12+ hours a day for two weeks straight. A number of jobs have uncertain and urgent of tasks, such as first responders or doctors. If these components can be managed, why then can on-call be so miserable?
 
-[Digging deeper](http://codywilbourn.com/2018/01/02/root-cause-is-plural/), I came to the conclusion that the worst part of on-call revolves around **frequency** and **volume**. Everything we do around improving on-call I believe tries to attack these two causes. Why do these factors impact on-call, and how can they be mitigated?
+[Digging deeper]({{< relref "2018-01-02-root-cause-is-plural" >}}), I came to the conclusion that the worst part of on-call revolves around **frequency** and **volume**. Everything we do around improving on-call I believe tries to attack these two causes. Why do these factors impact on-call, and how can they be mitigated?
 
 <!--more-->
 
@@ -107,7 +105,7 @@ There are also a number of technical strategies that can be implemented to reduc
 ### Alerting Improvements
 
 
-[Alerts need to be actionable](http://codywilbourn.com/2017/07/21/take-that-vacation-eliminate-alerts-dragging-you-back-to-the-office/). Any alerts that cannot be followed by an immediate action contribute to on-call chatter. The action to take when receiving one of these inactionable alerts is to either make it actionable or remove it, thereby reducing the frequency of incoming calls.
+[Alerts need to be actionable]({{< relref "2017-07-21-take-that-vacation-eliminate-alerts-dragging-you-back-to-the-office" >}}). Any alerts that cannot be followed by an immediate action contribute to on-call chatter. The action to take when receiving one of these inactionable alerts is to either make it actionable or remove it, thereby reducing the frequency of incoming calls.
 
 The false positive rate should be as close to zero as possible, and an alert's thresholds tuned until it is. Arguably, the false positive rate should be zero, if not by the current monitoring methodology then by some other.
 
@@ -147,7 +145,7 @@ While I split out solutions into categories for frequency, volume pertains to hu
 
 Some monitors need to be prioritized. Suppose I have a monitor for whether a process is running (to determine if the application exited and auto-restarts failed), and a second if its host is down (to determine hardware failure). When that host fails, both checks send notifications because a downed host cannot run a process. All I care about is that the host failed, as it is the higher priority notification of the two. Once the system is back up, then I care about whether the process fails to start. The method by which monitoring system can do this will vary, but composite monitors--a monitor made to alert based on the combined status of multiple metrics--could be a starting point.
 
-Another option is to only alert on the worst value of a metric. As I mentioned in my post on [overcoming alarm flood](http://codywilbourn.com/2017/10/06/overcoming-monitoring-alarm-flood/), I had once created a Kafka monitor that alerted per partition lag, when in fact all I cared about that something was bad. After moving to a "worst" monitor for each consumer group, the workflow became: fix the immediate issue, then be informed of the next issue. This cycle repeats until all of the issues have been resolved. I leverage the monitoring system to give a prioritization of work in the on-call situation rather than attempting to make a prioritization from too much information. If I did want more context, I have access to dashboards.
+Another option is to only alert on the worst value of a metric. As I mentioned in my post on [overcoming alarm flood]({{< relref "2017-10-06-overcoming-monitoring-alarm-flood" >}}), I had once created a Kafka monitor that alerted per partition lag, when in fact all I cared about that something was bad. After moving to a "worst" monitor for each consumer group, the workflow became: fix the immediate issue, then be informed of the next issue. This cycle repeats until all of the issues have been resolved. I leverage the monitoring system to give a prioritization of work in the on-call situation rather than attempting to make a prioritization from too much information. If I did want more context, I have access to dashboards.
 
 Reduce the overlap between monitors. Some monitoring noise is due to very similar, but slightly different monitors in practice. Separate those differences and make them into distinct checks. Or, if there is no benefit to having the nuances, remove all of the duplicates except one.
 
@@ -184,4 +182,4 @@ What a painless on-call has, in my experience, is culture and sustainability. Th
 
 Culture and sustainability sounds vague, because it is. How is it defined? What makes up these components? Different people and companies will define it differently, which is why there is no copy and paste solution for on-call. I believe it's generally accepted that having tests makes software better, but people will argue whether that's manual tests, a QA department, TDD, BDD, or something else that's best. What mix? What percent code coverage is needed? Culture and sustainability will have just as many questions and answers.
 
-I'd love to hear your thoughts. My inbox is open, you can find my info on the [contact page](http://codywilbourn.com/contact/).
+I'd love to hear your thoughts. My inbox is open, you can find my info on the [contact page]({{< ref "contact" >}}).

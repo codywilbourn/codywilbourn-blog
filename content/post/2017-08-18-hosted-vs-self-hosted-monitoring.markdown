@@ -1,15 +1,13 @@
 ---
-author: cwilbourn3
+author: "Cody Wilbourn"
 categories:
 - Alerting
 comments: true
 date: "2017-08-18T21:41:33Z"
-link: http://codywilbourn.com/2017/08/18/hosted-vs-self-hosted-monitoring/
 slug: hosted-vs-self-hosted-monitoring
 tags:
 - monitoring
 title: Hosted vs Self-Hosted Monitoring
-wordpress_id: 487
 ---
 
 Traditionally, to monitor your servers, your company would set up in-house monitoring with something like Nagios, and that was how things were done.

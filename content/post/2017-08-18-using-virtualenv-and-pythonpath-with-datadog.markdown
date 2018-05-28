@@ -1,16 +1,14 @@
 ---
-author: cwilbourn3
+author: "Cody Wilbourn"
 categories:
 - Alerting
 comments: true
 date: "2017-08-18T17:55:40Z"
-link: http://codywilbourn.com/2017/08/18/using-virtualenv-and-pythonpath-with-datadog/
 slug: using-virtualenv-and-pythonpath-with-datadog
 tags:
 - datadog
 - monitoring
 title: Using virtualenv and PYTHONPATH with Datadog
-wordpress_id: 376
 ---
 
 Datadog is a great service I've used for monitoring. Since the agent is Python-based it's very extensible through a collection of `pip` installable libraries, but the documentation is limited on how to handle these libraries.

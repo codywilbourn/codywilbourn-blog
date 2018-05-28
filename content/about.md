@@ -1,9 +1,7 @@
 ---
-author: cwilbourn3
+author: Cody
 comments: false
 date: 2017-07-04 12:52:07+00:00
-excerpt: This is just a short excerpt for the about&nbsp;page.
-layout: page
 link: http://codywilbourn.com/about/
 slug: about
 title: About

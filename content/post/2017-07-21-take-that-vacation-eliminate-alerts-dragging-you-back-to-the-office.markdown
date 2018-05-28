@@ -1,15 +1,13 @@
 ---
-author: cwilbourn3
+author: "Cody Wilbourn"
 categories:
 - Alerting
 comments: true
 date: "2017-07-21T18:51:13Z"
-link: http://codywilbourn.com/2017/07/21/take-that-vacation-eliminate-alerts-dragging-you-back-to-the-office/
 slug: take-that-vacation-eliminate-alerts-dragging-you-back-to-the-office
 tags:
 - sysadvent
 title: 'Take That Vacation: Eliminate Alerts Dragging You Back to the Office'
-wordpress_id: 46
 ---
 
 I authored this as part of SysAdvent, which posts one system administration-related post each day in December, ending on the 25th. You can find the original posted here: [http://sysadvent.blogspot.com/2016/12/day-15-take-that-vacation-eliminate.html](http://sysadvent.blogspot.com/2016/12/day-15-take-that-vacation-eliminate.html)
@@ -29,7 +27,7 @@ It's possible to engineer yourself and environment for success.<!--more-->
 Rome wasn't build in a day, and neither was your current alert setup. It won't take a day to clean up either. But you can apply two simple verification rules to each of your alerts:
 
   1. Is the alert actionable?
-  2.  Do you have to deal with the alert right now?
+  2. Do you have to deal with the alert right now?
 
 
 ## Take inventory of your monitoring system
@@ -80,7 +78,7 @@ Now sometimes alerts are used to notify you of events that happened, and you rea
 
 This question is phrased like one of those True or False problems your teachers gave you in elementary and middle school. Both parts need to be True for the entire statement to be True. There's two critical parts:
 
-**Do _you_ need to deal with this alert _right now_**
+**Do _you_ need to deal with this alert _right now_**
 
 **You**: Are you the right person to deal with this alert? If you're front line support responsible for escalating to the right person, this is going to be True. If you're on a small or single-person team, this is going to be True. However, if you're in an organization where there's a defined separation of duties and these alerts are going to the wrong place, then that alert needs to be corrected. Perhaps this is just a case of an overzealous email list -- all IT rather than network or desktop or server teams. Update the alert to go to the right people. This isn't just helping your workload, but also theirs, since misrouted alerts cost precious time when critical systems are down.
 

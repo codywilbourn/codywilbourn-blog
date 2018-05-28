@@ -1,15 +1,13 @@
 ---
-author: cwilbourn3
+author: "Cody Wilbourn"
 categories:
 - Analysis
 comments: true
 date: "2017-10-17T01:10:21Z"
-link: http://codywilbourn.com/2017/10/16/using-fault-tree-analysis-to-reduce-failures-in-software/
 slug: using-fault-tree-analysis-to-reduce-failures-in-software
 tags:
 - fault tree
 title: Using Fault-Tree Analysis To Reduce Failures in Software
-wordpress_id: 973
 ---
 
 Fault tree analysis is a top down analysis of an undesired system state to determine the best ways to reduce risk. It uses Boolean logic to combine contributing events, giving overall probabilities of failure. Fault trees are used primarily in high-risk industries such as aerospace, nuclear, and chemical. However, it can also be used in software to review and harden systems against failures.

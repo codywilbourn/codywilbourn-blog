@@ -1,18 +1,16 @@
 ---
-author: cwilbourn3
+author: "Cody Wilbourn"
 categories:
 - Alerting
 comments: true
 date: "2018-01-11T15:48:45Z"
-link: http://codywilbourn.com/2018/01/11/book-review-incident-management-for-operations/
 slug: book-review-incident-management-for-operations
 tags:
 - incident management
 title: 'Book Review: Incident Management for Operations'
-wordpress_id: 1513
 ---
 
-I have an interest in bringing ideas from outside of the tech industry and seeing how they fit. After working with Kerim Satirli ([@ksatirli](http://sysadvent.blogspot.com/2017/12/twitter.com/ksatirli)) on my [SysAdvent post about multiple root causes](http://codywilbourn.com/2018/01/02/root-cause-is-plural/), he was kind enough to send me a book "Incident Management for Operations". The book focuses on using the [Incident Management System](https://en.wikipedia.org/wiki/National_Incident_Management_System), pioneered in emergency services for fighting wildfires, in managing outages in tech.
+I have an interest in bringing ideas from outside of the tech industry and seeing how they fit. After working with Kerim Satirli ([@ksatirli](http://sysadvent.blogspot.com/2017/12/twitter.com/ksatirli)) on my [SysAdvent post about multiple root causes]({{< relref "2018-01-02-root-cause-is-plural" >}}), he was kind enough to send me a book "Incident Management for Operations". The book focuses on using the [Incident Management System](https://en.wikipedia.org/wiki/National_Incident_Management_System), pioneered in emergency services for fighting wildfires, in managing outages in tech.
 
 "Incident Management for Operations" was authored by Rob Schnepp, Ron Vidal, and Chris Hawley of [Blackrock 3 Partners](http://www.blackrock3.com/the-team.html). You can find the book on [Amazon](https://www.amazon.com/Incident-Management-Operations-Rob-Schnepp/dp/1491917628) or [Safari Books Online](https://www.safaribooksonline.com/library/view/incident-management-for/9781491917619/).
 

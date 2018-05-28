@@ -1,18 +1,16 @@
 ---
-author: cwilbourn3
+author: "Cody Wilbourn"
 categories:
 - Alerting
 - Talks
 comments: true
 date: "2017-11-30T15:38:43Z"
-link: http://codywilbourn.com/2017/11/30/the-hidden-costs-of-on-call-false-alarms/
 slug: the-hidden-costs-of-on-call-false-alarms
 tags:
 - lisa
 - monitoring
 - stress
 title: 'The Hidden Costs of On-Call: False Alarms'
-wordpress_id: 1505
 ---
 
 The video of my LISA17 talk is posted on [YouTube](https://www.youtube.com/watch?v=hXgwHFzSqaA).
@@ -39,14 +37,13 @@ Noisy monitoring system defaults and un-tuned alerts barrage us with information
 
 
 	
-  * [Reducing the Stresses of On-Call](http://codywilbourn.com/2017/09/17/stresses-of-on-call/)
-  * [Overcoming Monitoring Alarm Flood](http://codywilbourn.com/2017/10/06/overcoming-monitoring-alarm-flood/)
-  * [Take That Vacation: Eliminate Alerts Dragging You Back to the Office](http://codywilbourn.com/2017/07/21/take-that-vacation-eliminate-alerts-dragging-you-back-to-the-office/) (from SysAdvent '16)
-  * [Using Fault-Tree Analysis To Reduce Failures in Software](http://codywilbourn.com/2017/10/16/using-fault-tree-analysis-to-reduce-failures-in-software/)
+  * [Reducing the Stresses of On-Call]({{< relref "2017-09-17-stresses-of-on-call" >}})
+  * [Overcoming Monitoring Alarm Flood]({{< relref "2017-10-06-overcoming-monitoring-alarm-flood" >}})
+  * [Take That Vacation: Eliminate Alerts Dragging You Back to the Office]({{< relref "2017-07-21-take-that-vacation-eliminate-alerts-dragging-you-back-to-the-office" >}}) (from SysAdvent '16)
+  * [Using Fault-Tree Analysis To Reduce Failures in Software]({{< relref "2017-10-17-using-fault-tree-analysis-to-reduce-failures-in-software" >}})
 
 
 **Citations:**
-
 
 
 	

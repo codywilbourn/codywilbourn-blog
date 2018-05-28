@@ -1,16 +1,14 @@
 ---
-author: cwilbourn3
+author: "Cody Wilbourn"
 categories:
 - Command Line
 comments: true
 date: "2017-07-21T22:34:55Z"
-link: http://codywilbourn.com/2017/07/21/a-primer-on-tcpdump/
 slug: a-primer-on-tcpdump
 tags:
 - cli
 - tools
 title: A Primer on TCPDump
-wordpress_id: 90
 ---
 
 tcpdump is a great utility for debugging network applications and profiling them. It’s near universal - some tcpdump variant exists on every platform. You can even run tcpdump on some higher end switches and routers. Packet dumps can be saved for later analysis or to be sent off to vendors for debugging.

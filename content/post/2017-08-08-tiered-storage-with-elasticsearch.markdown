@@ -1,15 +1,13 @@
 ---
-author: cwilbourn3
+author: "Cody Wilbourn"
 categories:
 - Services
 comments: true
 date: "2017-08-08T21:48:24Z"
-link: http://codywilbourn.com/2017/08/08/tiered-storage-with-elasticsearch/
 slug: tiered-storage-with-elasticsearch
 tags:
 - elasticsearch
 title: Tiered Storage With Elasticsearch
-wordpress_id: 132
 ---
 
 Elasticsearch allows you to setup heterogeneous clusters, that is, nodes with different configurations within the same cluster. Elastic (the company) refers to this architecture as "[Hot-Warm](https://www.elastic.co/blog/hot-warm-architecture-in-elasticsearch-5-x)", but it's called tiered storage if you come from a storage background.
