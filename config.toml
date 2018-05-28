@@ -1,4 +1,4 @@
-baseURL = "http://codywilbourn.com"
+baseURL = "http://codywilbourn.com/"
 languageCode = "en-us"
 title = "Cody Wilbourn"
 theme = "ananke"
@@ -6,7 +6,8 @@ googleAnalytics = "UA-119876273-1"
 featured_image = "/img/spiration-dark.png"
 
 [params]
-  custom_css = ["css/custom.css"]
+  author = "Cody Wilbourn"
+  custom_css = ["/css/custom.css"]
   featured_image = "/img/spiration-dark.png"
   recent_posts_number = 5
   twitter = "https://twitter.com/codywilbourn"
