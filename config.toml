@@ -1,4 +1,4 @@
-baseURL = "http://codywilbourn.com/"
+baseURL = "https://codywilbourn.com/"
 languageCode = "en-us"
 title = "Cody Wilbourn"
 theme = "ananke"
