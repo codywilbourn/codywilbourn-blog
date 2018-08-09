@@ -24,6 +24,7 @@ Three options on how to contact me
   <p class="dn">
     <label>Leave this field blank <input name="missing" /></label>
   </p>
+  <div data-netlify-recaptcha></div>
   <p>
     <button type="submit" class="button-reset">Send</button>
   </p>
