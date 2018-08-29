@@ -153,7 +153,7 @@ structlog.configure(
     logger_factory=structlog.stdlib.LoggerFactory(),
     # Provides predefined methods - log.debug(), log.info(), etc.
     wrapper_class=structlog.stdlib.BoundLogger,
-    # Caching so this doesn't have to be repeated evaluated
+    # Caching of our logger
     cache_logger_on_first_use=True,
 )
 {{< / highlight >}}
