@@ -24,13 +24,13 @@ What might be contributing causes to this outage?
 
 
 
-	
+
   * CDN not delivering assets
 
-	
+
   * Frontend server errors (bad HTML, application crashes, etc.)
 
-	
+
   * Backend server errors (database lookup failures, etc)
 
 
@@ -40,7 +40,7 @@ We can recognize that any one of these conditions can be true, which means they 
 
 [Wikipedia has a reference with the symbols used.](https://en.wikipedia.org/wiki/Fault_tree_analysis#Graphic_Symbols)
 
-{{< figure src="/img/faulttree.png" src="Our initial fault tree" >}}
+{{< figure src="/img/faulttree.png" caption="Our initial fault tree" >}}
 
 In a formal fault tree analysis, we would assign probabilities to each event. The overall uptime of our SaaS is 2 9s (99%). This means our system is in a failure state 1% of the time.
 
@@ -54,7 +54,7 @@ If we had no further data measured or known about our systems, we could determin
 
 This gives us a probability of failure of the backend of 0.96 (1 - 0.01 - 0.03), or an uptime of 99.04%. If we had measured values for the backend uptime which did not match this estimation, we should re-evaluate assumptions made (e.g. `OR` vs `AND`), verify the correctness of the failure modeling used, or consider additional causes of failure not initially identified.
 
-{{< figure src="/img/faulttreefailures.png" src="The fault tree with the failure percentages noted" >}}
+{{< figure src="/img/faulttreefailures.png" caption="The fault tree with the failure percentages noted" >}}
 
 Where does this backend failure rate come from? Repeat the process to identify the components of failures, extending the tree. Considering that the application backend contributes the most to the SaaS downtime, we should start tackling the problems there. We would identify several potential solutions and consider the return on investment (ROI) in how it relates to our uptime concerns.
 
