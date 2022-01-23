@@ -256,6 +256,6 @@ in raw Markdown. Wordpress.com personal tier has Markdown support, but it's
 not the same feeling as other Markdown editors.
 
 If you're curious and would like to check out this site's source code,
-you can find it on [github.com/codywilbourn/codywilbourn-blog](github.com/codywilbourn/codywilbourn-blog)
+you can find it on [github.com/codywilbourn/codywilbourn-blog](https://github.com/codywilbourn/codywilbourn-blog)
 
 
